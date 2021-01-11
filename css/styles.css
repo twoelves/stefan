@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    color: #40514e;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 600
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #ffffff;
+  padding: 100px 0;
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+left: 250px;
+bottom: 300px;
+}
+
+/*************************************NOTA FLOTE SPARLEGA OG BARA TIL AÐ WRAP TEXT******************************/
+
+.chilli-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.vef {
+  text-decoration: underline;
+}
+
+.skill-row {
+  margin: 100px auto 120px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.text-clear-right {
+  clear: right;
+}
+
+.velkomin {
+    margin: auto;
+    width: 30%;
+  }
+
+  .contact-hnappur {
+     background: #11CDD4;
+     background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+     background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+     background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+     background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+     background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+     -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     border-radius: 8px;
+     color: #FFFFFF;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 20px;
+     padding: 10px 20px 10px 20px;
+     text-decoration: none;
+     display: inline-block;
+     cursor: pointer;
+     text-align: center;
+  }
+
+  .contact-hnappur:hover {
+     border: solid #337FED 0;
+     background: #30E3CB;
+     background-image: -webkit-linear-gradient(top, #30E3CB, #2bc4ad);
+     background-image: -moz-linear-gradient(top, #30E3CB, #2bc4ad);
+     background-image: -ms-linear-gradient(top, #30E3CB, #2bc4ad);
+     background-image: -o-linear-gradient(top, #30E3CB, #2bc4ad);
+     background-image: -webkit-gradient(to bottom, #30E3CB, #2bc4ad);
+     -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     border-radius: 8px;
+     text-decoration: none;
+  }
+
+
+/*
+.footer-link {
+
+}
+*/
+
+
+/*.contact-me {
+    margin: 10px auto 10px auto;
+    width: 50%;
+    text-align: center;
+    line-height: 2;
+  }
+*/
+  .contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+
+  .copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
